@@ -1,0 +1,95 @@
+body {
+    background: rgb(187, 187, 187);
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.midnav {
+    background-color: rgb(214, 212, 212);
+    overflow: hidden;
+
+}
+
+.midnav a.active {
+    background-color: #2668f7;
+    color: white;
+    float: right;
+}
+
+/* Style the links inside the navigation bar */
+.midnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+
+
+/* Change the color of links on hover */
+.midnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.boite1 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boite1 img{
+    border-radius: 20px;
+}
